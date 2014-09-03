@@ -1,0 +1,81 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BCM2708_PERI_BASE	./gpio.c	11;"	d	file:
+BCM_GPIO_DRIVER_NAME	./bcm2708_gpio.c	24;"	d	file:
+BCM_GPIO_USE_IRQ	./bcm2708_gpio.c	26;"	d	file:
+BLOCK_SIZE	./gpio.c	22;"	d	file:
+DEFINE_SPINLOCK	./bcm2708_gpio.c	/^static DEFINE_SPINLOCK(lock);	\/* GPIO registers *\/$/;"	p	file:
+DRIVER_NAME	./bcm2708_gpio.c	25;"	d	file:
+GET_GPIO	./gpio.c	39;"	d	file:
+GPIOAFEN	./bcm2708_gpio.c	38;"	d	file:
+GPIOAREN	./bcm2708_gpio.c	37;"	d	file:
+GPIOCLR	./bcm2708_gpio.c	30;"	d	file:
+GPIOEDS	./bcm2708_gpio.c	32;"	d	file:
+GPIOFEN	./bcm2708_gpio.c	34;"	d	file:
+GPIOFSEL	./bcm2708_gpio.c	28;"	d	file:
+GPIOHEN	./bcm2708_gpio.c	35;"	d	file:
+GPIOLEN	./bcm2708_gpio.c	36;"	d	file:
+GPIOLEV	./bcm2708_gpio.c	31;"	d	file:
+GPIOREN	./bcm2708_gpio.c	33;"	d	file:
+GPIOSET	./bcm2708_gpio.c	29;"	d	file:
+GPIOUD	./bcm2708_gpio.c	39;"	d	file:
+GPIOUDCLK	./bcm2708_gpio.c	40;"	d	file:
+GPIO_BASE	./gpio.c	12;"	d	file:
+GPIO_CLR	./gpio.c	37;"	d	file:
+GPIO_FSEL_ALT0	./bcm2708_gpio.c	/^	GPIO_FSEL_ALT0, GPIO_FSEL_ALT1,$/;"	e	enum:__anon1	file:
+GPIO_FSEL_ALT1	./bcm2708_gpio.c	/^	GPIO_FSEL_ALT0, GPIO_FSEL_ALT1,$/;"	e	enum:__anon1	file:
+GPIO_FSEL_ALT2	./bcm2708_gpio.c	/^	GPIO_FSEL_ALT2, GPIO_FSEL_ALT3,$/;"	e	enum:__anon1	file:
+GPIO_FSEL_ALT3	./bcm2708_gpio.c	/^	GPIO_FSEL_ALT2, GPIO_FSEL_ALT3,$/;"	e	enum:__anon1	file:
+GPIO_FSEL_ALT5	./bcm2708_gpio.c	/^	GPIO_FSEL_ALT5, GPIO_FSEL_ALT_4,$/;"	e	enum:__anon1	file:
+GPIO_FSEL_ALT_4	./bcm2708_gpio.c	/^	GPIO_FSEL_ALT5, GPIO_FSEL_ALT_4,$/;"	e	enum:__anon1	file:
+GPIO_FSEL_INPUT	./bcm2708_gpio.c	/^enum { GPIO_FSEL_INPUT, GPIO_FSEL_OUTPUT,$/;"	e	enum:__anon1	file:
+GPIO_FSEL_OUTPUT	./bcm2708_gpio.c	/^enum { GPIO_FSEL_INPUT, GPIO_FSEL_OUTPUT,$/;"	e	enum:__anon1	file:
+GPIO_SET	./gpio.c	36;"	d	file:
+INP_GPIO	./gpio.c	32;"	d	file:
+IRQ_TO_GPIO	./bcm2708_gpio.c	138;"	d	file:
+OUT_GPIO	./gpio.c	33;"	d	file:
+PAGE_SIZE	./gpio.c	21;"	d	file:
+SET_GPIO_ALT	./gpio.c	34;"	d	file:
+base	./bcm2708_gpio.c	/^	void __iomem *base;$/;"	m	struct:bcm2708_gpio	file:	access:public
+bcm2708_gpio	./bcm2708_gpio.c	/^struct bcm2708_gpio {$/;"	s	file:
+bcm2708_gpio::base	./bcm2708_gpio.c	/^	void __iomem *base;$/;"	m	struct:bcm2708_gpio	file:	access:public
+bcm2708_gpio::falling	./bcm2708_gpio.c	/^	unsigned long falling;$/;"	m	struct:bcm2708_gpio	file:	access:public
+bcm2708_gpio::gc	./bcm2708_gpio.c	/^	struct gpio_chip gc;$/;"	m	struct:bcm2708_gpio	typeref:struct:bcm2708_gpio::gpio_chip	file:	access:public
+bcm2708_gpio::list	./bcm2708_gpio.c	/^	struct list_head list;$/;"	m	struct:bcm2708_gpio	typeref:struct:bcm2708_gpio::list_head	file:	access:public
+bcm2708_gpio::rising	./bcm2708_gpio.c	/^	unsigned long rising;$/;"	m	struct:bcm2708_gpio	file:	access:public
+bcm2708_gpio_dir_in	./bcm2708_gpio.c	/^static int bcm2708_gpio_dir_in(struct gpio_chip *gc, unsigned offset)$/;"	f	file:	signature:(struct gpio_chip *gc, unsigned offset)
+bcm2708_gpio_dir_out	./bcm2708_gpio.c	/^static int bcm2708_gpio_dir_out(struct gpio_chip *gc, unsigned offset,$/;"	f	file:	signature:(struct gpio_chip *gc, unsigned offset, int value)
+bcm2708_gpio_driver	./bcm2708_gpio.c	/^static struct platform_driver bcm2708_gpio_driver = {$/;"	v	typeref:struct:platform_driver	file:
+bcm2708_gpio_exit	./bcm2708_gpio.c	/^module_exit(bcm2708_gpio_exit);$/;"	v
+bcm2708_gpio_exit	./bcm2708_gpio.c	/^static void __exit bcm2708_gpio_exit(void)$/;"	f	file:	signature:(void)
+bcm2708_gpio_get	./bcm2708_gpio.c	/^static int bcm2708_gpio_get(struct gpio_chip *gc, unsigned offset)$/;"	f	file:	signature:(struct gpio_chip *gc, unsigned offset)
+bcm2708_gpio_init	./bcm2708_gpio.c	/^module_init(bcm2708_gpio_init);$/;"	v
+bcm2708_gpio_init	./bcm2708_gpio.c	/^static int __init bcm2708_gpio_init(void)$/;"	f	file:	signature:(void)
+bcm2708_gpio_interrupt	./bcm2708_gpio.c	/^static irqreturn_t bcm2708_gpio_interrupt(int irq, void *dev_id)$/;"	f	file:	signature:(int irq, void *dev_id)
+bcm2708_gpio_irq	./bcm2708_gpio.c	/^static struct irqaction bcm2708_gpio_irq = {$/;"	v	typeref:struct:irqaction	file:
+bcm2708_gpio_irq_init	./bcm2708_gpio.c	/^static void bcm2708_gpio_irq_init(struct bcm2708_gpio *ucb)$/;"	f	file:	signature:(struct bcm2708_gpio *ucb)
+bcm2708_gpio_irq_mask	./bcm2708_gpio.c	/^static void bcm2708_gpio_irq_mask(struct irq_data *d)$/;"	f	file:	signature:(struct irq_data *d)
+bcm2708_gpio_irq_set_type	./bcm2708_gpio.c	/^static int bcm2708_gpio_irq_set_type(struct irq_data *d, unsigned type)$/;"	f	file:	signature:(struct irq_data *d, unsigned type)
+bcm2708_gpio_irq_unmask	./bcm2708_gpio.c	/^static void bcm2708_gpio_irq_unmask(struct irq_data *d)$/;"	f	file:	signature:(struct irq_data *d)
+bcm2708_gpio_probe	./bcm2708_gpio.c	/^static int bcm2708_gpio_probe(struct platform_device *dev)$/;"	f	file:	signature:(struct platform_device *dev)
+bcm2708_gpio_remove	./bcm2708_gpio.c	/^static int bcm2708_gpio_remove(struct platform_device *dev)$/;"	f	file:	signature:(struct platform_device *dev)
+bcm2708_gpio_set	./bcm2708_gpio.c	/^static void bcm2708_gpio_set(struct gpio_chip *gc, unsigned offset, int value)$/;"	f	file:	signature:(struct gpio_chip *gc, unsigned offset, int value)
+bcm2708_gpio_set	./bcm2708_gpio.c	/^static void bcm2708_gpio_set(struct gpio_chip *gc, unsigned offset, int value);$/;"	p	file:	signature:(struct gpio_chip *gc, unsigned offset, int value)
+bcm2708_gpio_to_irq	./bcm2708_gpio.c	/^static int bcm2708_gpio_to_irq(struct gpio_chip *chip, unsigned gpio)$/;"	f	file:	signature:(struct gpio_chip *chip, unsigned gpio)
+bcm2708_irqchip	./bcm2708_gpio.c	/^static struct irq_chip bcm2708_irqchip = {$/;"	v	typeref:struct:irq_chip	file:
+bcm2708_set_function	./bcm2708_gpio.c	/^static int bcm2708_set_function(struct gpio_chip *gc, unsigned offset,$/;"	f	file:	signature:(struct gpio_chip *gc, unsigned offset, int function)
+falling	./bcm2708_gpio.c	/^	unsigned long falling;$/;"	m	struct:bcm2708_gpio	file:	access:public
+gc	./bcm2708_gpio.c	/^	struct gpio_chip gc;$/;"	m	struct:bcm2708_gpio	typeref:struct:bcm2708_gpio::gpio_chip	file:	access:public
+gpio	./gpio.c	/^volatile unsigned *gpio;$/;"	v
+gpio_map	./gpio.c	/^void *gpio_map;$/;"	v
+list	./bcm2708_gpio.c	/^	struct list_head list;$/;"	m	struct:bcm2708_gpio	typeref:struct:bcm2708_gpio::list_head	file:	access:public
+main	./gpio.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+mem_fd	./gpio.c	/^int  mem_fd;$/;"	v
+printButton	./gpio.c	/^void printButton(int g)$/;"	f	signature:(int g)
+rising	./bcm2708_gpio.c	/^	unsigned long rising;$/;"	m	struct:bcm2708_gpio	file:	access:public
+setup_io	./gpio.c	/^void setup_io()$/;"	f
+setup_io	./gpio.c	/^void setup_io();$/;"	p	file:
